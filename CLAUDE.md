@@ -30,6 +30,9 @@ To start, just say: *"I have a new client to analyze"* or *"Let's do a client in
 - **Client-Ready Documents** → Use the `gtm-deliverables` skill (generates individual docs per GTM question)
 - **SEO & GEO** → Use the `seo-geo` skill (SEO audit, AI search optimization, schema markup, GEO principles)
 - **B2B Content Writing** → Use the `b2b-writer` skill (blog posts, LinkedIn, sales emails, event scripts — matches client voice)
+- **Lead Research** → Use the `lead-researcher` skill (prospect research, account intelligence, buying signals)
+- **Sales Outreach** → Use the `sales-outreach` skill (cold emails, LinkedIn messages, follow-up sequences — AIDA, PAS, BAB)
+- **Call Prep** → Use the `call-prep` skill (pre-meeting research, talking points, objection handling, MEDDICC)
 
 ## Architecture
 
@@ -55,7 +58,10 @@ GTM-consulting/
 │   ├── funnel-visualizer/     ← NEW: visual funnel generation (HTML)
 │   ├── gtm-deliverables/     ← NEW: individual docs per GTM question
 │   ├── seo-geo/              ← SEO & GEO (AI search optimization)
-│   └── b2b-writer/           ← B2B content writing (matches client voice)
+│   ├── b2b-writer/           ← B2B content writing (matches client voice)
+│   ├── lead-researcher/      ← Prospect research & account intelligence
+│   ├── sales-outreach/       ← Cold emails, LinkedIn, sequences (AIDA/PAS/BAB)
+│   └── call-prep/            ← Pre-meeting research, talking points, objections
 └── docs/                      ← Reference documents and playbooks
     ├── frameworks/            ← Core GTM frameworks
     ├── templates/             ← Client-ready templates
